@@ -34,6 +34,8 @@ def mutate_population(pop_input, pm):
 
 
 # print(f([0, 1, 3, 2]))
+
+# 1 0 3 2
 dim = 5  # Dimensiunea populației
 n = 5    # Numărul de elemente în permutări
 pop = generare_populatie(dim, n)

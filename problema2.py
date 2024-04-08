@@ -26,6 +26,7 @@ pc = 0.7
 
 
 def recombinare(pop_input, pc, dim):
+    """Operator de incrucisare multipunct"""
     pop = pop_input.copy()
     np.random.shuffle(pop)
 
@@ -44,7 +45,7 @@ def recombinare(pop_input, pc, dim):
 
         # Mutatie
         if np.random.rand() < pc:
-            # Aplicam incrucisarea
+            # Aplicam incrucisarea multipunct
 
             # Alegem 3 puncte aleatorii
             puncte = sorted(np.random.choice(
